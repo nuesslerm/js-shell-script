@@ -1,0 +1,10 @@
+{
+  "name": "js-shell-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+
+  "scripts": {
+    "emoji": "node emoji.js"
+  }
+}
