@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/Cellar/node/14.5.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add node-emoji
+
+PATH: 
+  /Users/nuesslerm/.rvm/gems/ruby-2.7.0/bin:/Users/nuesslerm/.rvm/gems/ruby-2.7.0@global/bin:/Users/nuesslerm/.rvm/rubies/ruby-2.7.0/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/nuesslerm/.rvm/gems/ruby-2.7.0/bin:/Users/nuesslerm/.rvm/gems/ruby-2.7.0@global/bin:/Users/nuesslerm/.rvm/rubies/ruby-2.7.0/bin:/usr/local/sbin:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/Users/nuesslerm/Library/Android/sdk/tools/bin:/Users/nuesslerm/Library/Android/sdk/emulator:/Users/nuesslerm/Library/Android/sdk/build-tools:/Users/nuesslerm/Library/Android/sdk/platform-tools:/Users/nuesslerm/Library/Android/sdk/tools:/Users/nuesslerm/drivers/bundle-tools:/Users/nuesslerm/.rvm/bin:/usr/local/sbin:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/Users/nuesslerm/Library/Android/sdk/tools/bin:/Users/nuesslerm/Library/Android/sdk/emulator:/Users/nuesslerm/Library/Android/sdk/build-tools:/Users/nuesslerm/Library/Android/sdk/platform-tools:/Users/nuesslerm/Library/Android/sdk/tools:/Users/nuesslerm/drivers/bundle-tools:/Users/nuesslerm/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nuesslerm/github/js-shell-script/package.json: Unexpected string in JSON at position 97
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "js-shell-script",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  
+    "scripts": {
+      "emoji": "node emoji.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
