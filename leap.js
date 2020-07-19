@@ -47,4 +47,4 @@ if (argv._.includes('lyr')) {
 }
 
 // argv.$0 contains the name of the script file which is executed like: '$0': 'leap.js'
-console.log(argv);
+// console.log(argv);
