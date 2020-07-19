@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "emoji": "node emoji.js"
+    "emoji": "node emoji.js",
+    "hello": "node hello.js",
+    "leap": "node leap.js"
   },
   "dependencies": {
     "node-emoji": "^1.10.0",
-    "random-emoji": "^1.0.2"
+    "random-emoji": "^1.0.2",
+    "yargs": "^15.4.1"
   }
 }
